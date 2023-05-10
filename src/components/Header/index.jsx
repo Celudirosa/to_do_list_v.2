@@ -21,7 +21,7 @@ export function Header({ onAddTask }) {
       <h1>To do:</h1>
 
       <form onSubmit={handleSubmit} className={styles.newTaskForm}>
-        <input placeholder='Add a new task' type='text' value={title} onChange={onChangeTitle} />
+        <input placeholder='Add a new task' type='text' required value={title} onChange={onChangeTitle} />
         <button>Add
           <BsFillPatchPlusFill size={20} />
         </button>
