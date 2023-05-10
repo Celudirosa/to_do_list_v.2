@@ -11,7 +11,7 @@ export function Tasks({ tasks, onComplete, onDelete }) {
 
       <header className={styles.header}>
         <div>
-          <p><Created></Created> tasks</p>
+          <p>Created tasks</p>
           <span>{tasksQuantity}</span>
         </div>
 
